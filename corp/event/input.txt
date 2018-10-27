@@ -1,0 +1,13 @@
+open
+You see a sign in the distance which says 'Now Leaving {:env.name}'. Do you keep going or stay in {:env.name}?
+2
+Let's keep going!
+You march triumphantly past the sign and onward towards the horizon.
+Let's stay a bit longer!
+You turn back around and start walking. You still have some things to do in {:env.name}.
+1
+chenv.change_open(event.opens[0])
+0
+0
+0
+1
